@@ -1,9 +1,9 @@
 
-[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/geospatial&target_branch=19.0)
-[![Pre-commit Status](https://github.com/OCA/geospatial/actions/workflows/pre-commit.yml/badge.svg?branch=19.0)](https://github.com/OCA/geospatial/actions/workflows/pre-commit.yml?query=branch%3A19.0)
-[![Build Status](https://github.com/OCA/geospatial/actions/workflows/test.yml/badge.svg?branch=19.0)](https://github.com/OCA/geospatial/actions/workflows/test.yml?query=branch%3A19.0)
-[![codecov](https://codecov.io/gh/OCA/geospatial/branch/19.0/graph/badge.svg)](https://codecov.io/gh/OCA/geospatial)
-[![Translation Status](https://translation.odoo-community.org/widgets/geospatial-19-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/geospatial-19-0/?utm_source=widget)
+[![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/geospatial&target_branch=18.0)
+[![Pre-commit Status](https://github.com/OCA/geospatial/actions/workflows/pre-commit.yml/badge.svg?branch=18.0)](https://github.com/OCA/geospatial/actions/workflows/pre-commit.yml?query=branch%3A18.0)
+[![Build Status](https://github.com/OCA/geospatial/actions/workflows/test.yml/badge.svg?branch=18.0)](https://github.com/OCA/geospatial/actions/workflows/test.yml?query=branch%3A18.0)
+[![codecov](https://codecov.io/gh/OCA/geospatial/branch/18.0/graph/badge.svg)](https://codecov.io/gh/OCA/geospatial)
+[![Translation Status](https://translation.odoo-community.org/widgets/geospatial-18-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/geospatial-18-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
 
@@ -17,7 +17,15 @@ geospatial
 
 [//]: # (addons)
 
-This part will be replaced when running the oca-gen-addons-table script from OCA/maintainer-tools.
+Available addons
+----------------
+addon | version | maintainers | summary
+--- | --- | --- | ---
+[base_geoengine](base_geoengine/) | 18.0.1.2.0 |  | Geospatial support for Odoo
+[web_leaflet_draw_lib](web_leaflet_draw_lib/) | 18.0.1.0.0 | <a href='https://github.com/NL66278''><img src='https://github.com/NL66278'.png' width='32' height='32' style='border-radius:50%;' alt='NL66278''/></a> | Bring leaflet.draw.js library in odoo.
+[web_leaflet_lib](web_leaflet_lib/) | 18.0.1.1.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Bring leaflet.js librairy in odoo.
+[web_view_leaflet_map](web_view_leaflet_map/) | 18.0.1.1.2 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add new 'leaflet_map' view, to display markers.
+[web_view_leaflet_map_partner](web_view_leaflet_map_partner/) | 18.0.1.0.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Add a leaflet map view for partners model
 
 [//]: # (end addons)
 
